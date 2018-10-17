@@ -1,0 +1,25 @@
+{
+  "name": "pizza",
+  "version": "1.0.0",
+  "description": "CLI something",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "app": "node app.js",
+    "build": "pkg ."
+  },
+  "author": "codecentric",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "gif-frames": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.4"
+  },
+  "pkg": {
+    "target": "node10"
+  }
+}
